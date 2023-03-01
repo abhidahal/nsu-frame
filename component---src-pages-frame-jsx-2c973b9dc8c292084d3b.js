@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkframeboi=self.webpackChunkframeboi||[]).push([[249],{1197:function(e,n,r){r.r(n);var u=r(7294);n.default=function(){return u.createElement("div",null,"frame")}}}]);
+//# sourceMappingURL=component---src-pages-frame-jsx-2c973b9dc8c292084d3b.js.map
