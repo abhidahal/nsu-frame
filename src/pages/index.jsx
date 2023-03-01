@@ -61,7 +61,6 @@ const Container = styled.div`
     justify-items-center
     items-center
     p-5
-    overflow-x-hidden
     `}
 `;
 
