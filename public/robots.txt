@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://abhidahal.github.io/nsu-frame/sitemap/sitemap-index.xml
-Host: https://abhidahal.github.io
