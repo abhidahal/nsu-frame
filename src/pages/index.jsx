@@ -10,6 +10,7 @@ import Helmet from 'react-helmet';
 import Inputs from '../components/frameControllers/DetailsInput';
 import Download from '../components/toolbox/Download';
 import CanvasStage from '../components/canvas/Stage';
+import Carousel from '../components/frameControllers/FrameCarousel';
 
 // Assets
 import frameData from '../../config/frameData';
@@ -62,6 +63,18 @@ const Container = styled.div`
     items-center
     p-5
     `}
+`;
+const CarouselC = styled.h1`
+  ${tw`
+    w-94
+    sm:w-full
+    overflow-y-hidden
+    mt-5
+`}
+  margin: 0px, 0px;
+  padding: 2px;
+  overflow-x: auto;
+  white-space: nowrap;
 `;
 
 const FRAMES = {
@@ -148,6 +161,9 @@ const Home = () => {
                 width={width}
               />
             )}
+            <CarouselC>
+              <Carousel frames={FRAMES} setSelectedFrame={setSelectedFrame} />
+            </CarouselC>
           </C1>
           <C3>
             <Container3>
